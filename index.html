@@ -489,8 +489,8 @@
 
   @media (max-width: 480px) {
     .pain-grid { grid-template-columns: 1fr; }
-    .profile-wrap { flex-direction: column; }
-    .profile-photo { width: 100%; min-width: unset; max-height: 260px; object-fit: cover; object-position: center top; }
+    .profile-wrap { flex-direction: row; align-items: flex-start; gap: 1rem; }
+    .profile-photo { width: 90px; min-width: 90px; height: auto; border-radius: 4px; flex-shrink: 0; }
     .poss-grid { grid-template-columns: 1fr; }
   }
 </style>
